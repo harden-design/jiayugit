@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 500px;
+        height: 200px;
+        margin: 200px auto 0 auto;
+      }
+      span {
+        position: absolute;
+        color: red;
+        top: 202px;
+        font-size: 30px;
+      }
+      .s1 {
+        position: absolute;
+        color: pink;
+        top: 180px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="../img/banner1.jpg" />
+      <span class="s1">还有5秒关闭广告</span>
+      <span class="x">×</span>
+    </div>
+  </body>
+  <script>
+    var ad = document.querySelector("img");
+    var x = document.querySelector(".x");
+    var s = document.querySelector(".s1");
+    window.addEventListener("load", function () {
+      function likai() {
+        ad.parentElement.style.display = "none";
+      }
+      setTimeout(likai, 5000);
+      x.addEventListener("click", likai);
+      var i = 5;
+      setInterval(function () {
+        i--;
+        s.innerHTML = "还有" + i + "秒关闭广告";
+      }, 1000);
+    });
+  </script>
+</html>
