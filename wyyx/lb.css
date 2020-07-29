@@ -1,0 +1,81 @@
+.xlb > .lbt {
+  width: 1090px;
+  box-sizing: border-box;
+  height: 310px;
+  overflow: hidden;
+}
+.xlb > .lbt > .bannerlist {
+  list-style: none;
+  height: 310px;
+  width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.xlb > .lbt > .bannerlist > .banner {
+  width: 1090px;
+  margin: 0 auto;
+  height: 310px;
+}
+.xlb > .lbt > .bannerlist > .banner > img {
+  width: 1090px;
+  height: 310px;
+}
+
+.countrl {
+  width: 300px;
+  height: 30px;
+  /* display: inline-block;*/
+  position: relative;
+  top: -96px;
+  right: -487px;
+  display: flex;
+}
+.countrl > .gezi {
+  display: inline-block;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  /* background-color: #cc9756; */
+  position: relative;
+}
+.countrl > .gezi > .gezizi {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  top: 25%;
+  right: 25%;
+}
+
+.lastone {
+  background: url(img/icon.png) 0 -2618px no-repeat;
+  height: 53px;
+  width: 50px;
+  position: relative;
+  top: -180px;
+  left: 12px;
+  display: inline-block;
+}
+
+.lastone:hover {
+  background: url(img/icon.png) 0 -2558px no-repeat;
+}
+.nextone {
+  background: url(img/icon.png) 0 -4740px no-repeat;
+  height: 53px;
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: -179px;
+  right: -970px;
+  z-index: 3;
+}
+.nextone:hover {
+  background: url(img/icon.png) 0 -4680px no-repeat;
+}
+/***/
