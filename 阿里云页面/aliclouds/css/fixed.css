@@ -1,0 +1,131 @@
+.aliposition {
+  width: 500px;
+  height: 500px;
+  float: right;
+  /* background-color: khaki; */
+  position: fixed;
+
+  top: 635px;
+  right: -407px;
+}
+
+.pos-main > .callus {
+  width: 44px;
+  height: 128px;
+  background-color: #fff;
+  text-align: center;
+  /* border-left: 8px solid transparent; */
+  position: relative;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.15);
+  /* background-color: lightblue; */
+}
+
+.pos-main > .callus > .iconfont {
+  text-align: center;
+  font-size: 30px;
+  color: #ff6a00;
+}
+
+.pos-main > .callus > .callus-text {
+  display: inline-block;
+  width: 14px;
+  font-size: 14px;
+  color: #ff6a00;
+  line-height: 17px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.callus:hover > .call-menu {
+  display: block;
+}
+.call-menu {
+  background-color: #fff;
+  width: 320px;
+  height: 292px;
+  position: absolute;
+  right: 52px;
+  bottom: 0px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.15);
+  /* border: 1px solid #ededed; */
+  display: none;
+}
+.call-menu img {
+  width: 14px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.call-menu ul {
+  margin: 20px auto;
+  width: 280px;
+  height: 252px;
+  /* background-color: tomato; */
+}
+.call-menu ul > li {
+  height: 48px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.call-menu ul > li > .call-icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.call-icon > span {
+  text-align: center;
+  line-height: 48px;
+  font-size: 30px;
+}
+.call-list {
+  float: left;
+  padding-left: 15px;
+  text-align: left;
+}
+.call-list > span:first-child {
+  display: block;
+  height: 8px;
+  padding-bottom: 0px;
+}
+.phone {
+  color: #ff6a00;
+}
+.call-list > span:hover {
+  color: #ff6a00;
+}
+.call-phone {
+  color: #999;
+  font-size: 12px;
+}
+
+/* up-to-top */
+
+/* .tothetop {
+  display: block; 
+  position: sticky;
+  top: 800px;
+} */
+.totop {
+  position: sticky;
+  top: 800px;
+  display: block;
+}
+.totop {
+  display: block;
+  float: right;
+  margin-right: 48px;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.15);
+  position: sticky;
+  z-index: 50;
+  /* top: 0;
+  right: 0; */
+}
+
+.totop span {
+  /* display: block; */
+  color: #ff6a00;
+  font-size: 36px;
+  text-align: center;
+  line-height: 44px;
+}

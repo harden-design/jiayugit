@@ -1,0 +1,40 @@
+/* 重置样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 36px;
+}
+
+body {
+  font: 14px "Microsoft YaHei", "微软雅黑";
+  margin: 0;
+  color: #333333;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* 共用样式 */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.f_right {
+  float: right;
+}
+.f_left {
+  float: left;
+}
